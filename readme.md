@@ -1,7 +1,7 @@
 The beginning steps are always hard so here is a straightforward documentation for starter. No need to learn docker or anything complex to get started. Most of the instruction below are copy-paste type of thing.
 
 ### Step 1:
-Signup on a cloud server. Some good cloud hosting companies are (aff link),
+Signup on a cloud server. Some good cloud hosting companies are as below, it's only $5/mo compared to VPS services that takes $50/mo.
 
 - [Digitalocean](https://m.do.co/c/bfdc47190e24)
 - [Linode](https://www.linode.com/?r=5faf4b6ffea568cb69679416313fcdba57c41164)
