@@ -3,7 +3,7 @@ The beginning steps are always hard so here is a straightforward documentation f
 ### Step 1:
 Signup on a cloud server. Some good cloud hosting companies are (aff link),
 
-- [digitalocean](https://m.do.co/c/bfdc47190e24)
+- [Digitalocean](https://m.do.co/c/bfdc47190e24)
 - [Linode](https://www.linode.com/?r=5faf4b6ffea568cb69679416313fcdba57c41164)
 - [Vultr](https://www.vultr.com/?ref=7128819)
 
