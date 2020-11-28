@@ -7,7 +7,9 @@ Signup on a cloud server. Some good cloud hosting companies are as below, it's o
 - [Linode](https://www.linode.com/?r=5faf4b6ffea568cb69679416313fcdba57c41164)
 - [Vultr](https://www.vultr.com/?ref=7128819)
 
-Buy a Ubuntu 20.04 droplet. The size of the server depends on the load you are going to give to the api.
+![](https://i.imgur.com/g9kyQYR.png)
+
+Buy a Ubuntu 20.04 droplet. The size of the server depends on the load you are going to give to the api. 1GB ram is good enough to run 1-2 chrome at once easily.
 
 ![](https://i.imgur.com/70LdHL5.png)
 
