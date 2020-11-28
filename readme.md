@@ -28,7 +28,7 @@ sudo apt-get update && sudo apt-get install -yq nodejs yarn
 and other important modules needed to run puppeteer headlessly,
 
 ```
-apt-get install -yq build-essential gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget xvfb x11vnc x11-xkb-utils xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic x11-apps git curl
+apt-get install -yq build-essential gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget xvfb x11vnc x11-xkb-utils xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic x11-apps git curl libgbm-dev
 ```
 
 ### Step 3:
@@ -50,6 +50,7 @@ yarn pm2 start process.json
 ### Step ?:
 Now open `http://<THE SERVER IP>:3000` and see the result.
 
+![](https://i.imgur.com/1Ngws1H.png)
 
 # Important PM2 Commands
 
@@ -68,3 +69,10 @@ yarn pm2 logs
 # ensure pm2 and the app runs on startup/restart
 yarn pm2 startup && yarn pm2 save
 ```
+
+# Notes
+
+- This is not secure at all.
+- This is going to run the browser every time you hit the link. Best if you add some protection there.
+- This is purely for experimental purpose. Make sure to remove the droplet once you are done with this.
+- This [args in puppeteer](app/scraper.js#L6) are very important to make it run properly. 
