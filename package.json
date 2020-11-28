@@ -1,0 +1,11 @@
+{
+  "name": "pm2-xvfb-puppeteer",
+  "version": "1.0.0",
+  "main": "app/server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.5.0",
+    "puppeteer": "^5.5.0"
+  }
+}
